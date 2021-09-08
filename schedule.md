@@ -1,6 +1,12 @@
-*J352 Fall 2021*
-# Schedule
-*Subject to change. Last updated Sept. 8, 2021.*
+---
+layout: page
+title: Schedule
+---
+<h1>J352 Fall 2021</h1>
+<p class="message">
+ Subject to change. Last updated Sept. 8, 2021.
+</p>
+
 
 ## W01 SEP 02
 ### ONBOARDING; DIGITAL JOURNALISM
