@@ -1,6 +1,6 @@
 ---
-title: Test
-has_children: true
+title: Schedule
+has_children: false
 nav_order: 2
 ---
 
