@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+
+p{
+    padding-left:20px;
+}
+
+em{
+    color:gray;
+}
+
+/* page hed */
+h1{
+    font-size:xx-large;
+    font-weight:800;
+    color:#36454F;
+    font-family:Helvetica, sans-serif;
+}
+
+
+
+/* weeks */
+h2{
+    background-color:#36454F;
+    color:white;
+    padding-left:5px;
+    padding: 5px;
+    font-size:1em;
+}
+.done{
+    background-color:gray;
+}
+
+/* topic */
+h3{
+    font-size:1em;
+    text-transform: uppercase;
+}
+
+/* topic homework */
+h4{
+color:darkgray;
+letter-spacing: 1px;
+font-size: 1em;
+text-transform: uppercase;
+}
