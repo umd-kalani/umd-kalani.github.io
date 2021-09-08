@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Schedule
-description: Schedule
 ---
+
 # J352 - Schedule
 
 _Subject to change. Last updated Sept. 2, 2021._
