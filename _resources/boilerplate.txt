@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!--content goes here-->
 <script src="index.js"></script>
 </body>
 </html>
