@@ -7,6 +7,7 @@ body {
 h1 {
     font-family: 'DM Serif Display', serif;
     font-style: italic;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -57,6 +58,62 @@ a:hover,
     letter-spacing: 1px;
 }
 
+
+
+
+
+
+
+
+
 .block img {
-    margin: 20px 0;
+    margin: 10px 0;
+}
+
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+nav,
+footer {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+@media (max-width:992px) {
+
+    nav,
+    footer {
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .hero {
+        display: none;
+    }
+}
+
+
+@media (max-width:375px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .block img {
+        margin: 10px 0;
+    }
+
+    nav {
+        margin: 20px 0 5px 0;
+    }
+
+    nav h2 {
+        font-size: .8em;
+    }
+
 }
