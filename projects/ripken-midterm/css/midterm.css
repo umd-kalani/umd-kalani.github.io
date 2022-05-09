@@ -1,0 +1,212 @@
+/* DONT DO THIS -- INCLUDE YOUR FONTS IN YOUR HTML  */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* 
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Manrope', sans-serif; 
+*/
+
+body {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    color: #f5f5f5;
+    background: #080707;
+}
+
+
+section,
+footer {
+    width: 65%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+/* TEXT */
+
+a {
+    color: #f5f5f5;
+    text-decoration-color: #DF4601;
+    font-weight: 600;
+
+}
+
+a:hover {
+    background-color: #f5f5f5;
+    color: #DF4601;
+}
+
+
+
+.intro,
+.name {
+    text-transform: uppercase;
+
+}
+
+.intro {
+    letter-spacing: 1.2px;
+}
+
+.name {
+    color: #DF4601;
+}
+
+
+i {
+    font-size: .8em;
+    color: #d4c9c3;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+/* HEADER */
+
+
+video {
+    width: 100%;
+}
+
+header {
+    height: 100vh;
+}
+
+
+.overline {
+    background-color: #DF4601;
+    color: #f5f5f5;
+    display: inline;
+    padding: 1% 2%;
+}
+
+
+header p {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1.1px;
+    font-weight: 300;
+}
+
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+
+/* EMBEDS */
+
+
+.graphic {
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+.chart {
+    padding: 30%;
+}
+
+
+
+
+
+h2 {  
+    /* LARGE DATES */
+    background-color: #f5f5f5;
+    color: #080707;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5% 0;
+    letter-spacing: 1.3px;
+
+}
+
+h3 {
+    /* SMALL DATES */
+    font-size: 1.1em;
+}
+
+
+/* QUOTES */
+blockquote {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    background-color: #DF4601;
+    padding: 2%;
+}
+
+.quote {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.cite {
+    font-size: .8em;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:1000px) {
+    header {
+        margin: 15% 2% 0 0;
+    }
+}
+
+@media(max-width:992px) {
+    header {
+        text-align: center;
+    }
+
+    video {
+        margin: 0 0 5% 0;
+    }
+}
+
+
+
+@media(max-width:850px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        margin: 25% 0 0 0;
+    }
+
+    .chart {
+        padding: 2%;
+    }
+}
+
+@media (max-width:450px) {
+    body {
+        font-size: 14px;
+    }
+
+    section,
+    footer {
+        width: 95%;
+    }
+
+    header {
+        margin: 50% 0 0 0;
+    }
+
+    i {
+        font-size: .9em;
+    }
+
+}
